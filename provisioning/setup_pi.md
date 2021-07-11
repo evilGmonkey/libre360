@@ -40,6 +40,9 @@ I copy the contents of that example, navigate to the root of the ```boot``` part
 - Log into the Pi using the default password, which is ```raspberry```. Once you're in, immediately type ```passwd``` (_without_ ```sudo```) and—at the prompts—enter first the old and then the new password (twice). Try not to forget the new password.
 - Get everything up to date with ```sudo apt update && sudo apt upgrade -y```. This will take a few minutes, more if your Internet connection is slow.
 
+- Install some pre-requisites
+-   sudo apt install python3-gphoto2
+
 - Fetch and install the ODM360 code
 
 ```
